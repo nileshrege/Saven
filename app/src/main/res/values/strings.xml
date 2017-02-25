@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Saven</string>
+    <string name="image_path">https://s3.amazonaws.com/dailyalerts/</string>
+</resources>
