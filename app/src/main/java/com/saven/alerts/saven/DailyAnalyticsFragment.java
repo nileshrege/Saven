@@ -9,10 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-
-/**
- * Created by nrege on 2/25/2017.
- */
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 public class DailyAnalyticsFragment extends Fragment {
 
@@ -27,6 +24,8 @@ public class DailyAnalyticsFragment extends Fragment {
                 .load(getString(R.string.image_path)+getArguments().get(IMAGE_RESOURCE)+".png")
                 .centerCrop()
                 .crossFade()
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
                 .into(imageView);
         return rootView;
     }
