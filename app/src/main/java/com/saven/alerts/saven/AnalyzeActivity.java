@@ -5,10 +5,6 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 
-/**
- * Created by nrege on 2/25/2017.
- */
-
 public class AnalyzeActivity extends FragmentActivity {
 
     AnalyticsAdapter analyticsAdapter;

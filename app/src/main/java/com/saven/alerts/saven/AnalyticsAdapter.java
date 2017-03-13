@@ -8,10 +8,6 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-/**
- * Created by nrege on 2/25/2017.
- */
-
 public class AnalyticsAdapter extends FragmentStatePagerAdapter {
     final String IMAGE_RESOURCE = "IMAGE_RESOURCE";
     final String DATE_FORMAT = "ddMMyyyy";
